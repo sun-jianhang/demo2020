@@ -1,0 +1,182 @@
+body{
+		background: url(../img/body-bg.png) repeat-x;
+		height: 2000px;
+}
+.clearfix::before,
+.clearfix::after{
+		content: '';
+		display: table;
+		clear: both;
+}
+.w{
+	width: 940px;
+	margin: 0 auto;
+}
+.header{
+
+	padding-top:37px;
+	padding-bottom:126px;
+}
+.logo{
+	margin-left: 15px;
+	float:left;
+}
+.nav{
+	float:right;
+	/* margin:0 auto; */
+	/* background-color: aqua; */
+	margin-top: 26px;
+}
+.nav li{
+	/* display: inline-block; */
+	float: left; 
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-left: #666666  dotted 1px;
+	padding-left: 10px;
+	
+
+}
+.nav a{
+	font: bold 14px Georgia  ;
+	color: #666666;
+}
+.nav p{
+	font: 11px tahoma;
+	color:#b7b7b7;
+}
+a:hover{color:red;}
+.banner{
+	height: 356px;
+	background: url(../img/banner-bg.png) no-repeat  bottom center/* #FF0000 */;
+/* 	float: left; */
+	position: relative;
+	}
+
+.dian{
+	position: absolute;
+	top:315px;
+	left:16px;
+	/* z-index: 99; */
+	
+}
+.dian a{
+	float: left;
+	width: 17px;
+	height: 17px;
+	background:url(../img/pointer.png);
+	margin-left: 4px;
+	
+	
+}
+.dian a:hover{
+	background-image: url(../img/pointer-active.png);
+}
+.content{
+
+}
+.content h1{
+		text-align: center;
+		padding : 7px 0 20px 0;
+		font:bold 24px  geneva ;
+		background: url(../img/line.png) no-repeat bottom center;
+		height: 40px;
+		margin-bottom: 40px;
+}
+.content .pl,.content .cs,.content .uc,
+.contact .nu,.contact .co,.contact .sc
+{
+	width: 300px;
+	float:left;
+	
+}
+.content  .cs,.contact .co{
+	margin: 0 20px 0 20px;
+	/* background-color: #FF0000; */
+}
+.content  h2{
+	color: #11719e;
+	font-size: 21px;
+	
+}
+.content .p1{
+	color: #8c8c8c;
+	font:12px georgia;
+}
+.content .img_div{
+	width: 299px;
+	height: 190px;
+	background:  /* red */ url(../img/img-bg.png) no-repeat ;
+	margin: 16px 0 11px 0;
+	text-align: center;
+	padding-top: 12px;
+	
+}
+.content .p3{
+	height: 92px;
+	color: #3e3e3e;
+	font:13px helvetica;
+}
+/* .content .p2{
+	color: #11719E;
+	position: relative;
+	top:-30px;
+	left:10px;
+} */
+.content .lm{
+	display: block;
+	width: 163px;
+	height: 40px;
+	color: #116999;
+	font:12px/40px helvetica;
+	position: relative;
+	background-image: url(../img/btn1.png)  ;
+	text-indent: 1em;
+	margin-bottom: 35px;
+
+	
+}
+/* 设置联系栏 */
+ .contact .nu,.contact .co,.contact .sc{
+	 /* background-color:gray; */
+	 height: 500px;
+ }
+ .contact{	
+	 background:url(../img/line.png) no-repeat top center;
+
+	 border: 1px solid red;
+	}
+/* 设置表单项 */
+.contact .text{
+	width: 296px;
+	height: 33px;
+	/* border:none; */
+	background: url(../img/contact/txt-bg.png);
+
+}
+.contact .tarea{
+	width: 296px;
+	height: 133px;
+	border: none;
+	background: url(../img/contact/tarea-bg.png);
+	resize: none;
+}
+.contact .btu{
+	width: 163px;
+	height: 33px;
+	border: none;
+	background: url(../img/contact/btn2.png);
+	resize: none;
+}
+
+.contact h2{
+	color:#444;
+	font: 18px georgia;
+	border-bottom:1px  dashed #b3b3b3;
+	padding: 45px 0 10px 0;
+	margin-bottom: 15px;
+	
+}
+
+
